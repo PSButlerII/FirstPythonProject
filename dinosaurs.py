@@ -6,6 +6,7 @@ class Dinosaur:
         self.attack_power = attack_power
 
     def attack(self,robot):
+        pass
 
         # print(dinosaur_list, "Pick a Dinosaur Please!")
         #
