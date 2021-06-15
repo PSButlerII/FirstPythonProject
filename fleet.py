@@ -13,6 +13,7 @@ class Fleet:
         robot_three = Robot(KR997, 300, "M242_Bushmaster_Chain_Gun", 200)
         robot_four = Robot(KR996, 300, "M242_Bushmaster_Chain_Gun", 200)
         robot_five = Robot(KR995, 300, "M242_Bushmaster_Chain_Gun", 200)
-        select_robot = random.choice(self.robot_list)
+        if len(self.robot_list)<5:
+            random.choice(self.robot_list)
 
 

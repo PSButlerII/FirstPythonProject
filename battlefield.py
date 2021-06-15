@@ -12,14 +12,18 @@ class  Battlefield:
         self.battlezone=battlezone
         self.player = input("Enter your Name")
 
-    if choice = left:
-            self.dinosaur_list.append()
-            self.dinosaur_list.create_herd()
+
 
     def display_welcome(self):
 
         def run_game():
             choice = input("Left for Dinosaurs or right for Robots! Choose!")
+            if choice == 'left':
+                self.dinosaur_list.append()
+                self.dinosaur_list.create_herd()
+                create_herd()
+
+
         print("Welcome to the Game!!")
         # battle():void
         # if choice==
