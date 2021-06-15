@@ -8,7 +8,7 @@ import random
 
 
 class  Battlefield:
-    def __init__(self,battlezone):
+    def __init__(self, battlezone):
         self.battlezone=battlezone
         self.player = input("Enter your Name")
 
